@@ -24,12 +24,12 @@ export default ({ env }) => {
     },
     postgres: {
       connection: {
-        connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'localhost'),
-        port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME', 'strapi'),
-        user: env('DATABASE_USERNAME', 'strapi'),
-        password: env('DATABASE_PASSWORD', 'strapi'),
+        connectionString: env('POSTGRES_URL'),
+        host: env('POSTGRES_HOST', 'localhost'),
+        port: env.int('POSTGRESS_PORT', 5432),
+        database: env('POSTGRES_DATABASE', 'strapi'),
+        user: env('POSTGRES_USER', 'strapi'),
+        password: env('POSTGRES_PASSWORD', 'strapi'),
         ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
