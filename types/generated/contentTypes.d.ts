@@ -410,6 +410,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    audio: Schema.Attribute.Media<'videos' | 'audios', true>;
     authors: Schema.Attribute.Relation<'manyToMany', 'api::author.author'>;
     categories: Schema.Attribute.Relation<
       'manyToMany',

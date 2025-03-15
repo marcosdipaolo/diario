@@ -47,6 +47,14 @@
     },
     "content": {
       "type": "blocks"
+    },
+    "audio": {
+      "allowedTypes": [
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
