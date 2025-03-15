@@ -1,0 +1,8 @@
+{
+  "name": "strapi-provider-upload-supabase",
+  "version": "1.0.0",
+  "description": "Supabase storage provider for Strapi",
+  "main": "index.js",
+  "author": "Your Name",
+  "license": "MIT"
+}
