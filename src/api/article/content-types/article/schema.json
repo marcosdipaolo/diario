@@ -49,12 +49,16 @@
       "type": "blocks"
     },
     "audio": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "SoundcloudUrl": {
+      "type": "string"
     }
   }
 }
