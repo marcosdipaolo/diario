@@ -57,7 +57,7 @@
         "audios"
       ]
     },
-    "SoundcloudUrl": {
+    "soundcloudUrl": {
       "type": "string"
     }
   }
